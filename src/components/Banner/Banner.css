@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.banner {
+  background-image: url("https://cdn.lifestyleasia.com/wp-content/uploads/sites/3/2021/05/27115440/Money-Heist.jpg");
+  background-size: cover;
+  height: 800px;
+  color: rgb(255, 255, 255);
+}
+
+.content {
+  padding-top: 190px;
+  margin-left: 60px;
+  margin-bottom: 80px;
+  max-height: 300px;
+}
+
+.watchContent {
+  background-image: linear-gradient(
+    to left,
+    transparent,
+    rgba(29, 29, 29, 0.253),
+    rgba(15, 15, 15, 0.637)
+  );
+  padding-top: 260px;
+  padding-bottom: 500px;
+  padding-left: 160px;
+  margin-bottom: 80px;
+  max-height: 300px;
+}
+
+.title {
+  width: 500px;
+  width: 500px;
+  /* margin-left: 60px; */
+  font-size: 4rem;
+  letter-spacing: 3px;
+  align-content: center;
+  font-family: "Anton", sans-serif;
+}
+
+.banbtn {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 60px; */
+  margin-top: 20px;
+  width: 210px;
+}
+
+.watchBanbtn {
+  display: none;
+  justify-content: space-between;
+  /* margin-left: 60px; */
+  margin-top: 30px;
+  width: 210px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: rgba(117, 117, 117, 0.466);
+  height: 35px;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.842);
+  color: black;
+}
+
+.subtitle {
+  padding-top: 18px;
+}
+
+.desc {
+  width: 50%;
+}
+
+.fade {
+  position: sticky;
+  top: 755px;
+  height: 5.91rem;
+  width: 100%;
+  /* background-color: aqua; */
+  background-image: linear-gradient(
+    transparent,
+    rgba(29, 29, 29, 0.561),
+    rgb(15, 15, 15)
+  );
+}
+
+.overlay {
+  background-color: rgba(3, 3, 3, 0.616);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+}

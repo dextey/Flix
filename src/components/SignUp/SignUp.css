@@ -1,0 +1,24 @@
+.signup {
+  background-image: url("https://acf.geeknetic.es/imgri/imagenes/noticias/2020/18310-netflix-av1-codec-muestra.jpg?f=webp");
+  background-size: cover;
+  height: 100vh;
+}
+
+.container-signup {
+  background-color: rgba(0, 0, 0, 0.596);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.794);
+  width: 25%;
+  height: 70%;
+  border-radius: 20px;
+}

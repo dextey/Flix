@@ -1,0 +1,40 @@
+.row {
+  width: 100%;
+  color: aliceblue;
+  padding: 15px;
+}
+
+.ptitle {
+  /* font-family: monospace; */
+  width: 600px;
+  font-size: 20px;
+  padding: 6px;
+}
+
+.posters {
+  /* display: flex; */
+  margin: 2px;
+  width: 100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  height: 270px;
+  margin: 3px;
+  padding: 3px;
+}
+.bigposter {
+  height: 370px;
+  margin: 3px;
+  padding: 3px;
+}
+.poster:hover,
+.bigposter:hover {
+  transform: scale(1.1);
+}
